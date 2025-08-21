@@ -1,21 +1,24 @@
 import java.util.Scanner;
 
 
-// we need to do type conversion for this which i will do later
 public class AddTillX {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int sum = 0;
-        while(true){
-            System.out.print("Enter number: ");
-            int num = sc.nextInt();
-            if (num == 120 || num == 88){
-                System.out.println(sum);
-            } else {
-                sum += num;
+        int total = 0;
+        while (total >= 0) {
+            System.out.print("Enter x to exit, y to continue: ");
+            char ch = sc.next().trim().charAt(0);
+            if(ch == 'x' || ch == 'X'){
+                break;
+            } else if (ch == 'y' || ch == 'Y'){
+                System.out.print("Enter a number: ");
+                int num = sc.nextInt();
+                total = total + num;
             }
-        }
 
+
+        }
+        System.out.printf("Sum is %d", total);
     }
 }
