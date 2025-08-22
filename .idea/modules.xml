@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DSA.iml" filepath="$PROJECT_DIR$/DSA.iml" />
       <module fileurl="file://$PROJECT_DIR$/conditions_loops/conditions_loops.iml" filepath="$PROJECT_DIR$/conditions_loops/conditions_loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lec3_nestedLoops/lec3_nestedLoops.iml" filepath="$PROJECT_DIR$/lec3_nestedLoops/lec3_nestedLoops.iml" />
       <module fileurl="file://$PROJECT_DIR$/pratice1/pratice1.iml" filepath="$PROJECT_DIR$/pratice1/pratice1.iml" />
     </modules>
   </component>
